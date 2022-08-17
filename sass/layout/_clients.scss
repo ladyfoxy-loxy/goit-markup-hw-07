@@ -1,0 +1,40 @@
+.clients {
+    display: flex;
+    gap: 30px;
+}
+.clients-item {
+    flex-basis: calc((100% - 150px) / 6);
+}
+
+.clients-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-color: #AFB1B8;
+    border-radius: 4px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+    }   
+}
+
+.clients-icon {
+    display: flex;
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .clients-link:hover &,
+    .clients-link:focus & {
+        fill: var(--accent-color);
+    }
+}
+
+

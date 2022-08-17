@@ -1,0 +1,43 @@
+.features {
+    display: flex;
+    gap: 30px;
+}
+
+.features-point {
+    flex-basis: calc((100% - 60px) / 3)
+}
+
+.feature-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.feature-descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--contacts-descr-color);
+}
+
+.features-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270;
+    height: 120;
+    background-color: var(--light-bg-color);
+    border-radius: mixed;
+    margin-bottom: 30px;
+    
+}
+.features-icon {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin: 25px 100px;
+}
